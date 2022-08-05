@@ -21,6 +21,10 @@
     --normal-font-size: 1.1em;
 }
 
+.scroll.active{
+    margin-right: 15px;
+}
+
 
 /* Navigation Menu  */
 .navigation{
@@ -91,6 +95,7 @@
     height: 40px;
     cursor: pointer;
     display: block;
+    margin-right: 20px;
 }
 
 .nav-bar .logo img{
@@ -160,6 +165,7 @@
 .content .info img{
     width: 50%;
     margin-bottom: 35px;
+    margin-top: -30px;
 }
 
 .policy{
