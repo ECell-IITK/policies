@@ -770,3 +770,15 @@ footer a{
     font-weight: 300;
     margin-top: 25px;
 }
+
+.move{
+    position: relative;
+    transform: translateY(120px);
+    opacity: 0;
+    transition: all 1.5s ease;
+}
+
+.move.active{
+    transform: translateY(0px);
+    opacity: 1;
+}
