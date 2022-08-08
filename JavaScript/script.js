@@ -84,42 +84,38 @@ navItem.forEach((navItem) =>{
 
 // Scroll Reveal Animation
 ScrollReveal({
-    reset: true,
-    distance: '70px',
+    reset: false,
+    distance: '80px',
     duration: 1800,
     delay: 90
 });
-ScrollReveal().reveal('.timeline-content', { delay: 500, origin: 'bottom' });
-ScrollReveal().reveal('.profile-card', { delay: 700, origin: 'bottom', interval:200 });
 
-// ScrollReveal().reveal('.home .home-container h1, .section-title-01, .section-title-02', { delay: 500, origin: 'left' });
-// ScrollReveal().reveal('.home .home-container h3, .home .home-container p', { delay: 600, origin: 'right' });
-// ScrollReveal().reveal('.home .home-container .btn', { delay: 700, origin: 'bottom' });
-// ScrollReveal().reveal('.contact-left li,', { delay: 500, origin: 'left', interval: 200 });
-// ScrollReveal().reveal('.policy, .policy-mid, .center-line, .timeline-content, .footer-container .info', { delay: 500, origin: 'bottom' });
-// ScrollReveal().reveal('.content .info img, .contact-right, .para1, .img1 img', { delay: 600, origin: 'right' });
-// ScrollReveal().reveal('.content .info p, .contact-left h2', { delay: 700, origin: 'left'});
-// ScrollReveal().reveal('.content .info p, .contact-left h2, .para', { delay: 600, origin: 'left'});
-// ScrollReveal().reveal('footer .group', { delay: 500, origin: 'top', interval:200 });
+ScrollReveal().reveal('.profile-card', { delay: 650, origin: 'bottom', interval:200 });
+ScrollReveal().reveal('.home .home-container h1, .section-title-01, .section-title-02', { delay: 500, origin: 'left' });
+ScrollReveal().reveal('.home .home-container h3, .home .home-container p', { delay: 600, origin: 'right' });
+ScrollReveal().reveal('.home .home-container .btn', { delay: 700, origin: 'bottom' });
+ScrollReveal().reveal('.policy, .policy-mid, .center-line, .timeline-content, .contact-left, .contact-right, .block,.content .para1, .content .para', { delay: 600, origin: 'bottom' });
+ScrollReveal().reveal('.content .info img, .img1 img', { delay: 600, origin: 'right' });
+ScrollReveal().reveal('.content .info p', { delay: 600, origin: 'left'});
 
 
 // To create animation
-window.addEventListener('scroll', move);
+// window.addEventListener('scroll', move);
 
-function move(){
-    var moves = document.querySelectorAll('.move');
+// function move(){
+//     var moves = document.querySelectorAll('.move');
 
-    for(var i=0; i<moves.length; i++){
+//     for(var i=0; i<moves.length; i++){
 
-        var windowheight = window.innerHeight;
-        var movetop = moves[i].getBoundingClientRect().top;
-        var movepoint = 150;
+//         var windowheight = window.innerHeight;
+//         var movetop = moves[i].getBoundingClientRect().top;
+//         var movepoint = 150;
 
-        if(movetop < windowheight - movepoint){
-            moves[i].classList.add('active');
-        }
-        else{
-            moves[i].classList.remove('active');
-        }
-    }
-}
+//         if(movetop < windowheight - movepoint){
+//             moves[i].classList.add('active');
+//         }
+//         else{
+//             moves[i].classList.remove('active');
+//         }
+//     }
+// }
