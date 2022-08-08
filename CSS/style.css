@@ -242,10 +242,20 @@ header.sticky .nav-bar{
     font-size: 4.5em;
     font-weight: 800;
     margin-bottom: 2rem;
-    background: linear-gradient(to top, transparent 0%, #0e2431 70%);
+    background: linear-gradient(to top, transparent 0%, #000000 70%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     opacity: 0.1;
+}
+
+.whiteheading{
+    font-size: 4.5em;
+    font-weight: 800;
+    margin-bottom: 2rem;
+    background: linear-gradient(to top, transparent 0%, #ffffff 70%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    opacity: 0.25;
 }
 
 .section-title-02{
@@ -310,6 +320,7 @@ header.sticky .nav-bar{
     font-size: var(--normal-font-size);
     word-spacing: 3px;
     font-weight: 550;
+    text-align: justify;
 }
 
 .policy p:hover{
@@ -340,6 +351,7 @@ header.sticky .nav-bar{
     transition: 0.3s ease;
     font-size: var(--normal-font-size);
     word-spacing: 3px;
+    text-align: justify;
     font-weight: 550;
 }
 
@@ -377,7 +389,7 @@ header.sticky .nav-bar{
     background: #FBC335;
     height: 330px;
     width: 420px;
-    box-shadow: 0px 0px 20px rgba(232, 232, 232, 0.45);
+    box-shadow: 0px 0px 14px rgba(232, 232, 232, 0.45);
     border-bottom: 3px solid white;
     padding: 35px;
     margin-top: 15px;
@@ -385,6 +397,7 @@ header.sticky .nav-bar{
     transition: 0.3s ease;
     font-size: var(--normal-font-size);
     word-spacing: 3px;
+    text-align: justify;
     font-weight: 550;
 }
 
@@ -412,6 +425,7 @@ header.sticky .nav-bar{
 
 .para{
     color: white;
+    text-align: center;
 }
 
 .center h1{
@@ -426,6 +440,7 @@ header.sticky .nav-bar{
 .roadmap img{
     width: 100%;
     color: white;
+    margin-top: -3px;
 }
 
 .container .img1{
@@ -557,7 +572,7 @@ header.sticky .nav-bar{
 .Team{
     background: black;
     color: white;
-    margin-top: -4px;
+    margin-top: -6px;
     height: 650px;
 }
 
@@ -685,6 +700,7 @@ header.sticky .nav-bar{
 .contact-form textarea{
     width: 100%;
     resize: none;
+    color: black;
 }
 
 ::placeholder{
@@ -693,6 +709,7 @@ header.sticky .nav-bar{
 
 .contact-form .first-row input{
     width: 100%;
+    color: black;
 }
 
 .contact-form .second-row{
@@ -702,6 +719,7 @@ header.sticky .nav-bar{
 
 .contact-form .second-row input{
     width: 48%;
+    color: black;
 }
 
 .contact-form .btn{

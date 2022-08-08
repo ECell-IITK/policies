@@ -85,13 +85,13 @@ navItem.forEach((navItem) =>{
 // Scroll Reveal Animation
 ScrollReveal({
     reset: false,
-    distance: '80px',
+    distance: '78px',
     duration: 1800,
-    delay: 90
+    delay: 80
 });
 
 ScrollReveal().reveal('.profile-card', { delay: 650, origin: 'bottom', interval:200 });
-ScrollReveal().reveal('.home .home-container h1, .section-title-01, .section-title-02', { delay: 500, origin: 'left' });
+ScrollReveal().reveal('.home .home-container h1, .section-title-01, .section-title-02, .whiteheading', { delay: 500, origin: 'left' });
 ScrollReveal().reveal('.home .home-container h3, .home .home-container p', { delay: 600, origin: 'right' });
 ScrollReveal().reveal('.home .home-container .btn', { delay: 700, origin: 'bottom' });
 ScrollReveal().reveal('.policy, .policy-mid, .center-line, .timeline-content, .contact-left, .contact-right, .block,.content .para1, .content .para', { delay: 600, origin: 'bottom' });
