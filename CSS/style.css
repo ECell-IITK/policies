@@ -510,6 +510,7 @@ header.sticky .nav-bar{
 .timeline-content p{
     line-height: 30px;
     font-size: 1.05em;
+    text-align: justify;
 }
 
 .timeline-content:hover{
